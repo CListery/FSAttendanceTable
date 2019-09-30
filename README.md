@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/FSAttendanceTable.svg?style=flat)](https://cocoapods.org/pods/FSAttendanceTable)
 [![Platform](https://img.shields.io/cocoapods/p/FSAttendanceTable.svg?style=flat)](https://cocoapods.org/pods/FSAttendanceTable)
 
+## Views
+![](./screen/screen.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
