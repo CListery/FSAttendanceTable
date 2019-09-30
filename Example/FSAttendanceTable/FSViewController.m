@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    FSAttMonthFullView * view;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

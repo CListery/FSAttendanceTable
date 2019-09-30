@@ -26,4 +26,4 @@ clistery, cai1083088795@gmail.com
 
 ## License
 
-FSAttendanceTable is available under the MIT license. See the LICENSE file for more info.
+FSAttendanceTable is available under the Apache License. See the LICENSE file for more info.

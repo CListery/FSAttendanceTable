@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB7849E2341A02000843EA9 /* FSAttStatusCons.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB784892341A02000843EA9 /* FSAttStatusCons.m */; };
+		1DB7849F2341A02000843EA9 /* FSAttStatusCons.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB7848A2341A02000843EA9 /* FSAttStatusCons.h */; };
+		1DB784A02341A02000843EA9 /* FSAttMonthFullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB7848C2341A02000843EA9 /* FSAttMonthFullView.m */; };
+		1DB784A12341A02000843EA9 /* FSAttMonthFullView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB7848D2341A02000843EA9 /* FSAttMonthFullView.h */; };
+		1DB784A22341A02000843EA9 /* FSAttScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB7848F2341A02000843EA9 /* FSAttScheme.m */; };
+		1DB784A32341A02000843EA9 /* FSAttCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB784902341A02000843EA9 /* FSAttCalendarModel.m */; };
+		1DB784A42341A02000843EA9 /* FSAttScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB784912341A02000843EA9 /* FSAttScheme.h */; };
+		1DB784A52341A02000843EA9 /* FSAttCalendarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB784922341A02000843EA9 /* FSAttCalendarModel.h */; };
+		1DB784A62341A02000843EA9 /* NSDate+FSUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB784942341A02000843EA9 /* NSDate+FSUtility.h */; };
+		1DB784A72341A02000843EA9 /* UIColor+FSUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB784952341A02000843EA9 /* UIColor+FSUtility.h */; };
+		1DB784A82341A02000843EA9 /* NSString+FSUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB784962341A02000843EA9 /* NSString+FSUtility.h */; };
+		1DB784A92341A02000843EA9 /* NSString+FSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB784972341A02000843EA9 /* NSString+FSUtility.m */; };
+		1DB784AA2341A02000843EA9 /* UIColor+FSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB784982341A02000843EA9 /* UIColor+FSUtility.m */; };
+		1DB784AB2341A02000843EA9 /* NSDate+FSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB784992341A02000843EA9 /* NSDate+FSUtility.m */; };
+		1DB784AC2341A02000843EA9 /* FSAttTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB7849A2341A02000843EA9 /* FSAttTable.h */; };
+		1DB784AD2341A02000843EA9 /* FMUString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB7849C2341A02000843EA9 /* FMUString.h */; };
+		1DB784AE2341A02000843EA9 /* FMUString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB7849D2341A02000843EA9 /* FMUString.m */; };
+		28791143221C373F187F8225C5130A63 /* Pods-FSAttendanceTable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B117755341D1DD1221F2B7B809BCB843 /* Pods-FSAttendanceTable_Tests-dummy.m */; };
+		2A5A3B5C3C6B820D53527239B86848BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3350A84273B3E4625D338F5DE5F2BC71 /* Pods-FSAttendanceTable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145A11C6397FB45E8288A33DA65CD151 /* Pods-FSAttendanceTable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB9D4377E850DD24EB803B3ADBBA380 /* FSAttendanceTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6693439E7CE3316CF0B6996C186BEC40 /* FSAttendanceTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B3A21E663F24239766C69CDCDD17D12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C701A7255630FB14F25D86706927C92D /* Pods-FSAttendanceTable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F019532F364700E5CEE924371DA0084 /* Pods-FSAttendanceTable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF7BF6D5D4A10330EDBE370F63881AD2 /* Pods-FSAttendanceTable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F32BE7D4348C759310776113A104335 /* Pods-FSAttendanceTable_Example-dummy.m */; };
+		D81E6051DA1F66EC270C8106B9F51752 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF9306075B225E1726C2B13F61BEAFB8 /* FSAttendanceTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB7CFF33650955F69C9666E76B0062 /* FSAttendanceTable-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2A94EBDE474BDF36D1DB6F9F5B2A19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AF03F08F8967EB75BFEEB3B0EAC855;
+			remoteInfo = "Pods-FSAttendanceTable_Example";
+		};
+		D9A6C62914F9FD66AD51CDBEDE6A7F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E778754AF02EF3EE03E2BB84C41E375A;
+			remoteInfo = FSAttendanceTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C78E3E9228D576F5DFBC8DCAC9B2B9 /* Pods-FSAttendanceTable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSAttendanceTable_Tests.modulemap"; sourceTree = "<group>"; };
+		0F0323850F59C8263E23FE94982BFED8 /* FSAttendanceTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSAttendanceTable.modulemap; sourceTree = "<group>"; };
+		145A11C6397FB45E8288A33DA65CD151 /* Pods-FSAttendanceTable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSAttendanceTable_Example-umbrella.h"; sourceTree = "<group>"; };
+		173629519BF74C2065167201B4D2EA23 /* Pods_FSAttendanceTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSAttendanceTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB784892341A02000843EA9 /* FSAttStatusCons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAttStatusCons.m; sourceTree = "<group>"; };
+		1DB7848A2341A02000843EA9 /* FSAttStatusCons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAttStatusCons.h; sourceTree = "<group>"; };
+		1DB7848C2341A02000843EA9 /* FSAttMonthFullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAttMonthFullView.m; sourceTree = "<group>"; };
+		1DB7848D2341A02000843EA9 /* FSAttMonthFullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAttMonthFullView.h; sourceTree = "<group>"; };
+		1DB7848F2341A02000843EA9 /* FSAttScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAttScheme.m; sourceTree = "<group>"; };
+		1DB784902341A02000843EA9 /* FSAttCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAttCalendarModel.m; sourceTree = "<group>"; };
+		1DB784912341A02000843EA9 /* FSAttScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAttScheme.h; sourceTree = "<group>"; };
+		1DB784922341A02000843EA9 /* FSAttCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAttCalendarModel.h; sourceTree = "<group>"; };
+		1DB784942341A02000843EA9 /* NSDate+FSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FSUtility.h"; sourceTree = "<group>"; };
+		1DB784952341A02000843EA9 /* UIColor+FSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSUtility.h"; sourceTree = "<group>"; };
+		1DB784962341A02000843EA9 /* NSString+FSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FSUtility.h"; sourceTree = "<group>"; };
+		1DB784972341A02000843EA9 /* NSString+FSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FSUtility.m"; sourceTree = "<group>"; };
+		1DB784982341A02000843EA9 /* UIColor+FSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSUtility.m"; sourceTree = "<group>"; };
+		1DB784992341A02000843EA9 /* NSDate+FSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FSUtility.m"; sourceTree = "<group>"; };
+		1DB7849A2341A02000843EA9 /* FSAttTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSAttTable.h; path = FSAttendanceTable/FSAttTable.h; sourceTree = "<group>"; };
+		1DB7849C2341A02000843EA9 /* FMUString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMUString.h; sourceTree = "<group>"; };
+		1DB7849D2341A02000843EA9 /* FMUString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUString.m; sourceTree = "<group>"; };
+		1FA2FDA8C9C5320BFA0787EEBEE37265 /* Pods-FSAttendanceTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSAttendanceTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		24F15F1F1BB641F5B4FC44EB688698DD /* Pods-FSAttendanceTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSAttendanceTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27F8586C51ABF9D88503FD79FA7FD881 /* Pods-FSAttendanceTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSAttendanceTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2BB2CFFDC0391D6C57A6B6170D3C11BB /* FSAttendanceTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSAttendanceTable.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C0A51903E40252941D2623327B7FD01 /* Pods_FSAttendanceTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSAttendanceTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFDD7B47091E3D44B5C9E48D923D539 /* FSAttendanceTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSAttendanceTable-prefix.pch"; sourceTree = "<group>"; };
+		412FFD455897E3DB99C84E3BC5C08E9D /* Pods-FSAttendanceTable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSAttendanceTable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F32BE7D4348C759310776113A104335 /* Pods-FSAttendanceTable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSAttendanceTable_Example-dummy.m"; sourceTree = "<group>"; };
+		4FDB7CFF33650955F69C9666E76B0062 /* FSAttendanceTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSAttendanceTable-dummy.m"; sourceTree = "<group>"; };
+		5121DF0CE117894AADBA7FF1182FDFD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AF3AD2AE08A5F2892034C5F011BF61C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5F019532F364700E5CEE924371DA0084 /* Pods-FSAttendanceTable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSAttendanceTable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6693439E7CE3316CF0B6996C186BEC40 /* FSAttendanceTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSAttendanceTable-umbrella.h"; sourceTree = "<group>"; };
+		85B3FC227679EB686E21E61E1FBA4CF7 /* Pods-FSAttendanceTable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSAttendanceTable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95B7276DAFA00F0CB2896728C589E7E7 /* Pods-FSAttendanceTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSAttendanceTable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		97F2590A861DD47B16D559995276E6AF /* Pods-FSAttendanceTable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSAttendanceTable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9AA5D675881EDF23E8B7A1138722E70B /* FSAttendanceTable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSAttendanceTable-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5F672B1577D779A84729A7B5C2960CE /* FSAttendanceTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FSAttendanceTable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B036E0B98FD2F78A408FF55F1B035E76 /* Pods-FSAttendanceTable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSAttendanceTable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B117755341D1DD1221F2B7B809BCB843 /* Pods-FSAttendanceTable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSAttendanceTable_Tests-dummy.m"; sourceTree = "<group>"; };
+		B2613FAE0A91B4DE3CE196A25C510770 /* Pods-FSAttendanceTable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSAttendanceTable_Example-Info.plist"; sourceTree = "<group>"; };
+		D66F6A11B417B3B315F8ECCFA2505229 /* FSAttendanceTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSAttendanceTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A867C6BABF11F103BCA3D41A251AA9 /* Pods-FSAttendanceTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSAttendanceTable_Example.modulemap"; sourceTree = "<group>"; };
+		DF7C6F27B9501D3502BE8B5776BE3D33 /* Pods-FSAttendanceTable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSAttendanceTable_Tests-Info.plist"; sourceTree = "<group>"; };
+		E357688941F57BEB86B8F46C12F2052F /* Pods-FSAttendanceTable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSAttendanceTable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B6094C4CBF5735AAF1F1295EC25D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5A3B5C3C6B820D53527239B86848BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9019547EF3D1F226E9B62916BBD25D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3A21E663F24239766C69CDCDD17D12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D104515B875964C2A7289C5154CF771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81E6051DA1F66EC270C8106B9F51752 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2426ADBDC0162253F7A2A276AE6F03 /* Pods-FSAttendanceTable_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D6A867C6BABF11F103BCA3D41A251AA9 /* Pods-FSAttendanceTable_Example.modulemap */,
+				B036E0B98FD2F78A408FF55F1B035E76 /* Pods-FSAttendanceTable_Example-acknowledgements.markdown */,
+				E357688941F57BEB86B8F46C12F2052F /* Pods-FSAttendanceTable_Example-acknowledgements.plist */,
+				4F32BE7D4348C759310776113A104335 /* Pods-FSAttendanceTable_Example-dummy.m */,
+				85B3FC227679EB686E21E61E1FBA4CF7 /* Pods-FSAttendanceTable_Example-frameworks.sh */,
+				B2613FAE0A91B4DE3CE196A25C510770 /* Pods-FSAttendanceTable_Example-Info.plist */,
+				145A11C6397FB45E8288A33DA65CD151 /* Pods-FSAttendanceTable_Example-umbrella.h */,
+				27F8586C51ABF9D88503FD79FA7FD881 /* Pods-FSAttendanceTable_Example.debug.xcconfig */,
+				95B7276DAFA00F0CB2896728C589E7E7 /* Pods-FSAttendanceTable_Example.release.xcconfig */,
+			);
+			name = "Pods-FSAttendanceTable_Example";
+			path = "Target Support Files/Pods-FSAttendanceTable_Example";
+			sourceTree = "<group>";
+		};
+		18AAD6434B51587851DFF0D6D7FABD7C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A5F672B1577D779A84729A7B5C2960CE /* FSAttendanceTable.podspec */,
+				5AF3AD2AE08A5F2892034C5F011BF61C /* LICENSE */,
+				5121DF0CE117894AADBA7FF1182FDFD1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		18D74266CF58B99F7C3690A723D3860D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5911A627E7A49F2F484F7C4F58D238CC /* FSAttendanceTable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1DB784882341A02000843EA9 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				1DB784892341A02000843EA9 /* FSAttStatusCons.m */,
+				1DB7848A2341A02000843EA9 /* FSAttStatusCons.h */,
+			);
+			name = Const;
+			path = FSAttendanceTable/Const;
+			sourceTree = "<group>";
+		};
+		1DB7848B2341A02000843EA9 /* AttTable */ = {
+			isa = PBXGroup;
+			children = (
+				1DB7848C2341A02000843EA9 /* FSAttMonthFullView.m */,
+				1DB7848D2341A02000843EA9 /* FSAttMonthFullView.h */,
+			);
+			name = AttTable;
+			path = FSAttendanceTable/AttTable;
+			sourceTree = "<group>";
+		};
+		1DB7848E2341A02000843EA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DB7848F2341A02000843EA9 /* FSAttScheme.m */,
+				1DB784902341A02000843EA9 /* FSAttCalendarModel.m */,
+				1DB784912341A02000843EA9 /* FSAttScheme.h */,
+				1DB784922341A02000843EA9 /* FSAttCalendarModel.h */,
+			);
+			name = Model;
+			path = FSAttendanceTable/Model;
+			sourceTree = "<group>";
+		};
+		1DB784932341A02000843EA9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1DB784942341A02000843EA9 /* NSDate+FSUtility.h */,
+				1DB784952341A02000843EA9 /* UIColor+FSUtility.h */,
+				1DB784962341A02000843EA9 /* NSString+FSUtility.h */,
+				1DB784972341A02000843EA9 /* NSString+FSUtility.m */,
+				1DB784982341A02000843EA9 /* UIColor+FSUtility.m */,
+				1DB784992341A02000843EA9 /* NSDate+FSUtility.m */,
+			);
+			name = Category;
+			path = FSAttendanceTable/Category;
+			sourceTree = "<group>";
+		};
+		1DB7849B2341A02000843EA9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1DB7849C2341A02000843EA9 /* FMUString.h */,
+				1DB7849D2341A02000843EA9 /* FMUString.m */,
+			);
+			name = Utils;
+			path = FSAttendanceTable/Utils;
+			sourceTree = "<group>";
+		};
+		378234035B9342B17E46D057CDF33141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66F6A11B417B3B315F8ECCFA2505229 /* FSAttendanceTable.framework */,
+				173629519BF74C2065167201B4D2EA23 /* Pods_FSAttendanceTable_Example.framework */,
+				3C0A51903E40252941D2623327B7FD01 /* Pods_FSAttendanceTable_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5911A627E7A49F2F484F7C4F58D238CC /* FSAttendanceTable */ = {
+			isa = PBXGroup;
+			children = (
+				1DB7849A2341A02000843EA9 /* FSAttTable.h */,
+				1DB7848B2341A02000843EA9 /* AttTable */,
+				1DB784932341A02000843EA9 /* Category */,
+				1DB784882341A02000843EA9 /* Const */,
+				1DB7848E2341A02000843EA9 /* Model */,
+				1DB7849B2341A02000843EA9 /* Utils */,
+				18AAD6434B51587851DFF0D6D7FABD7C /* Pod */,
+				86E05AF66D8C80BECB23FC260496C027 /* Support Files */,
+			);
+			name = FSAttendanceTable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		86E05AF66D8C80BECB23FC260496C027 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0323850F59C8263E23FE94982BFED8 /* FSAttendanceTable.modulemap */,
+				2BB2CFFDC0391D6C57A6B6170D3C11BB /* FSAttendanceTable.xcconfig */,
+				4FDB7CFF33650955F69C9666E76B0062 /* FSAttendanceTable-dummy.m */,
+				9AA5D675881EDF23E8B7A1138722E70B /* FSAttendanceTable-Info.plist */,
+				3FFDD7B47091E3D44B5C9E48D923D539 /* FSAttendanceTable-prefix.pch */,
+				6693439E7CE3316CF0B6996C186BEC40 /* FSAttendanceTable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FSAttendanceTable";
+			sourceTree = "<group>";
+		};
+		8BC71D82AD73C917CC59DC6FDCCE2B43 /* Pods-FSAttendanceTable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07C78E3E9228D576F5DFBC8DCAC9B2B9 /* Pods-FSAttendanceTable_Tests.modulemap */,
+				97F2590A861DD47B16D559995276E6AF /* Pods-FSAttendanceTable_Tests-acknowledgements.markdown */,
+				412FFD455897E3DB99C84E3BC5C08E9D /* Pods-FSAttendanceTable_Tests-acknowledgements.plist */,
+				B117755341D1DD1221F2B7B809BCB843 /* Pods-FSAttendanceTable_Tests-dummy.m */,
+				DF7C6F27B9501D3502BE8B5776BE3D33 /* Pods-FSAttendanceTable_Tests-Info.plist */,
+				5F019532F364700E5CEE924371DA0084 /* Pods-FSAttendanceTable_Tests-umbrella.h */,
+				24F15F1F1BB641F5B4FC44EB688698DD /* Pods-FSAttendanceTable_Tests.debug.xcconfig */,
+				1FA2FDA8C9C5320BFA0787EEBEE37265 /* Pods-FSAttendanceTable_Tests.release.xcconfig */,
+			);
+			name = "Pods-FSAttendanceTable_Tests";
+			path = "Target Support Files/Pods-FSAttendanceTable_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				18D74266CF58B99F7C3690A723D3860D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				378234035B9342B17E46D057CDF33141 /* Products */,
+				E8F617E931D042FDAB36047076319144 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8F617E931D042FDAB36047076319144 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2426ADBDC0162253F7A2A276AE6F03 /* Pods-FSAttendanceTable_Example */,
+				8BC71D82AD73C917CC59DC6FDCCE2B43 /* Pods-FSAttendanceTable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		070D0D7B5D3BE8232B4FB7B38F56D09E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3350A84273B3E4625D338F5DE5F2BC71 /* Pods-FSAttendanceTable_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E85F1D7403D132C1E3906AC61C9002 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB784AD2341A02000843EA9 /* FMUString.h in Headers */,
+				1DB7849F2341A02000843EA9 /* FSAttStatusCons.h in Headers */,
+				4FB9D4377E850DD24EB803B3ADBBA380 /* FSAttendanceTable-umbrella.h in Headers */,
+				1DB784A82341A02000843EA9 /* NSString+FSUtility.h in Headers */,
+				1DB784A42341A02000843EA9 /* FSAttScheme.h in Headers */,
+				1DB784A62341A02000843EA9 /* NSDate+FSUtility.h in Headers */,
+				1DB784AC2341A02000843EA9 /* FSAttTable.h in Headers */,
+				1DB784A72341A02000843EA9 /* UIColor+FSUtility.h in Headers */,
+				1DB784A12341A02000843EA9 /* FSAttMonthFullView.h in Headers */,
+				1DB784A52341A02000843EA9 /* FSAttCalendarModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC3EB16D4B637156E83B4C802157736 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C701A7255630FB14F25D86706927C92D /* Pods-FSAttendanceTable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4AF03F08F8967EB75BFEEB3B0EAC855 /* Pods-FSAttendanceTable_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCD6940C20E16D20FBE685CAFC5E95F /* Build configuration list for PBXNativeTarget "Pods-FSAttendanceTable_Example" */;
+			buildPhases = (
+				070D0D7B5D3BE8232B4FB7B38F56D09E /* Headers */,
+				64D68A61F371E71F918E3DFC180B3BDC /* Sources */,
+				9D104515B875964C2A7289C5154CF771 /* Frameworks */,
+				8C0F64DD0375BB5E6F53BA1FEFEFBFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E552F67B3CE3100D5A0225A650D6437 /* PBXTargetDependency */,
+			);
+			name = "Pods-FSAttendanceTable_Example";
+			productName = "Pods-FSAttendanceTable_Example";
+			productReference = 173629519BF74C2065167201B4D2EA23 /* Pods_FSAttendanceTable_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E778754AF02EF3EE03E2BB84C41E375A /* FSAttendanceTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07519282EB63AE8C81C65878499B91C6 /* Build configuration list for PBXNativeTarget "FSAttendanceTable" */;
+			buildPhases = (
+				36E85F1D7403D132C1E3906AC61C9002 /* Headers */,
+				41D53C9482E4A15EEE53B90422C0D863 /* Sources */,
+				9019547EF3D1F226E9B62916BBD25D5A /* Frameworks */,
+				4EB96245F3599EB553CCDDDC857F8E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSAttendanceTable;
+			productName = FSAttendanceTable;
+			productReference = D66F6A11B417B3B315F8ECCFA2505229 /* FSAttendanceTable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2E0FC37264BD3AF6FD97624906CD0F4 /* Pods-FSAttendanceTable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C9C99EA3769E28042D6A558DE73CCB /* Build configuration list for PBXNativeTarget "Pods-FSAttendanceTable_Tests" */;
+			buildPhases = (
+				4CC3EB16D4B637156E83B4C802157736 /* Headers */,
+				B274BB0FC22427926913E802F91270C8 /* Sources */,
+				08B6094C4CBF5735AAF1F1295EC25D97 /* Frameworks */,
+				895F1C1B94CA4D097BA5CE8DC47844A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20D8F4D8407E60F35B6C0F6E957FC03 /* PBXTargetDependency */,
+			);
+			name = "Pods-FSAttendanceTable_Tests";
+			productName = "Pods-FSAttendanceTable_Tests";
+			productReference = 3C0A51903E40252941D2623327B7FD01 /* Pods_FSAttendanceTable_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 378234035B9342B17E46D057CDF33141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E778754AF02EF3EE03E2BB84C41E375A /* FSAttendanceTable */,
+				A4AF03F08F8967EB75BFEEB3B0EAC855 /* Pods-FSAttendanceTable_Example */,
+				F2E0FC37264BD3AF6FD97624906CD0F4 /* Pods-FSAttendanceTable_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EB96245F3599EB553CCDDDC857F8E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895F1C1B94CA4D097BA5CE8DC47844A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F64DD0375BB5E6F53BA1FEFEFBFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D53C9482E4A15EEE53B90422C0D863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB784AE2341A02000843EA9 /* FMUString.m in Sources */,
+				1DB784A02341A02000843EA9 /* FSAttMonthFullView.m in Sources */,
+				EF9306075B225E1726C2B13F61BEAFB8 /* FSAttendanceTable-dummy.m in Sources */,
+				1DB7849E2341A02000843EA9 /* FSAttStatusCons.m in Sources */,
+				1DB784A22341A02000843EA9 /* FSAttScheme.m in Sources */,
+				1DB784AB2341A02000843EA9 /* NSDate+FSUtility.m in Sources */,
+				1DB784A32341A02000843EA9 /* FSAttCalendarModel.m in Sources */,
+				1DB784AA2341A02000843EA9 /* UIColor+FSUtility.m in Sources */,
+				1DB784A92341A02000843EA9 /* NSString+FSUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D68A61F371E71F918E3DFC180B3BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7BF6D5D4A10330EDBE370F63881AD2 /* Pods-FSAttendanceTable_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274BB0FC22427926913E802F91270C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28791143221C373F187F8225C5130A63 /* Pods-FSAttendanceTable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E552F67B3CE3100D5A0225A650D6437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSAttendanceTable;
+			target = E778754AF02EF3EE03E2BB84C41E375A /* FSAttendanceTable */;
+			targetProxy = D9A6C62914F9FD66AD51CDBEDE6A7F09 /* PBXContainerItemProxy */;
+		};
+		C20D8F4D8407E60F35B6C0F6E957FC03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FSAttendanceTable_Example";
+			target = A4AF03F08F8967EB75BFEEB3B0EAC855 /* Pods-FSAttendanceTable_Example */;
+			targetProxy = B2A94EBDE474BDF36D1DB6F9F5B2A19D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C549FFE77B5E76C613F0BC2973E102A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA2FDA8C9C5320BFA0787EEBEE37265 /* Pods-FSAttendanceTable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSAttendanceTable_Tests/Pods-FSAttendanceTable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSAttendanceTable_Tests/Pods-FSAttendanceTable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		52571DC61F2E001AC7A0EDAC412408DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F8586C51ABF9D88503FD79FA7FD881 /* Pods-FSAttendanceTable_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSAttendanceTable_Example/Pods-FSAttendanceTable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSAttendanceTable_Example/Pods-FSAttendanceTable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783CBF27E308C73EC277CF4622AF7B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB2CFFDC0391D6C57A6B6170D3C11BB /* FSAttendanceTable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSAttendanceTable/FSAttendanceTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSAttendanceTable/FSAttendanceTable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSAttendanceTable/FSAttendanceTable.modulemap";
+				PRODUCT_MODULE_NAME = FSAttendanceTable;
+				PRODUCT_NAME = FSAttendanceTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79BDBDB528D54D398976D942577E1EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F15F1F1BB641F5B4FC44EB688698DD /* Pods-FSAttendanceTable_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSAttendanceTable_Tests/Pods-FSAttendanceTable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSAttendanceTable_Tests/Pods-FSAttendanceTable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5273713700BC94CE1DC8FAA456189A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB2CFFDC0391D6C57A6B6170D3C11BB /* FSAttendanceTable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSAttendanceTable/FSAttendanceTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSAttendanceTable/FSAttendanceTable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSAttendanceTable/FSAttendanceTable.modulemap";
+				PRODUCT_MODULE_NAME = FSAttendanceTable;
+				PRODUCT_NAME = FSAttendanceTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F70850C3116BAD0025D8A71EEA6893B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B7276DAFA00F0CB2896728C589E7E7 /* Pods-FSAttendanceTable_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSAttendanceTable_Example/Pods-FSAttendanceTable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSAttendanceTable_Example/Pods-FSAttendanceTable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07519282EB63AE8C81C65878499B91C6 /* Build configuration list for PBXNativeTarget "FSAttendanceTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5273713700BC94CE1DC8FAA456189A2 /* Debug */,
+				783CBF27E308C73EC277CF4622AF7B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DCD6940C20E16D20FBE685CAFC5E95F /* Build configuration list for PBXNativeTarget "Pods-FSAttendanceTable_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52571DC61F2E001AC7A0EDAC412408DF /* Debug */,
+				F70850C3116BAD0025D8A71EEA6893B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C9C99EA3769E28042D6A558DE73CCB /* Build configuration list for PBXNativeTarget "Pods-FSAttendanceTable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BDBDB528D54D398976D942577E1EBA /* Debug */,
+				1C549FFE77B5E76C613F0BC2973E102A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -7,6 +7,7 @@
 //
 
 #import "FSAppDelegate.h"
+@import FSAttendanceTable;
 
 @implementation FSAppDelegate
 
