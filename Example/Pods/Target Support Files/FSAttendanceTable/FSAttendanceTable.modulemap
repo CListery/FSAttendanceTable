@@ -1,6 +1,0 @@
-framework module FSAttendanceTable {
-  umbrella header "FSAttendanceTable-umbrella.h"
-
-  export *
-  module * { export * }
-}

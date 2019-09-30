@@ -1,6 +1,5 @@
 # FSAttendanceTable
 
-[![CI Status](https://img.shields.io/travis/clistery/FSAttendanceTable.svg?style=flat)](https://travis-ci.org/clistery/FSAttendanceTable)
 [![Version](https://img.shields.io/cocoapods/v/FSAttendanceTable.svg?style=flat)](https://cocoapods.org/pods/FSAttendanceTable)
 [![License](https://img.shields.io/cocoapods/l/FSAttendanceTable.svg?style=flat)](https://cocoapods.org/pods/FSAttendanceTable)
 [![Platform](https://img.shields.io/cocoapods/p/FSAttendanceTable.svg?style=flat)](https://cocoapods.org/pods/FSAttendanceTable)
