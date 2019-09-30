@@ -59,7 +59,7 @@ pod 'FSAttendanceTable'
 
 ## Author
 
-clistery, cai1083088795@gmail.com
+[clistery](cai1083088795@gmail.com)
 
 ## License
 
