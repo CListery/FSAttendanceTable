@@ -66,6 +66,9 @@
 }
 
 -(void)initAttrs{
+    if(mCalendarData){
+        return;
+    }
     mDefTxtSize = 14;
     mItemHeight = 65;
     mWeekBarHeight = 40;
@@ -84,16 +87,10 @@
     mCurDayPointPaint = [UIColor colorWithHexString:@"215BF1"];
     mWhitePoint = [UIColor whiteColor];
     mMonthTextPaint = [UIColor colorWithHexString:@"212325"];
-}
-
-- (void)layoutSubviews{
     
-    mHeight = (mLineCount * mItemHeight) + mWeekBarHeight;
-    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, mHeight);
+    [self recalculateView];
     
-    mItemWidth = self.frame.size.width / 7;
-    
-    [super layoutSubviews];
+    [self setNeedsDisplay];
 }
 
 - (void)drawRect:(CGRect)rect{
@@ -384,9 +381,19 @@
     for(FSAttCalendarModel * cal in mCalendarData){
         cal.isCurrentDay = NO;
         cal.isFutureDate = NO;
-        if(cal.year > now.year || cal.month > now.month || cal.day > now.day){
+        if(cal.year > now.year){
             cal.isFutureDate = YES;
             continue;
+        }else if(cal.year == now.year){
+            if(cal.month > now.month){
+                cal.isFutureDate = YES;
+                continue;
+            }else if(cal.month == now.month){
+                if(cal.day > now.day){
+                    cal.isFutureDate = YES;
+                    continue;
+                }
+            }
         }
         if(cal.year == now.year){
             if(cal.month == now.month){
@@ -397,11 +404,17 @@
         }
     }
     
-    mHeight = (mLineCount * mItemHeight) + mWeekBarHeight;
+    [self recalculateView];
     
     [self setNeedsLayout];
     [self setNeedsDisplay];
 }
 #pragma clang diagnostic pop
+
+- (void)recalculateView{
+    mHeight = (mLineCount * mItemHeight) + mWeekBarHeight;
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, mHeight);
+    mItemWidth = self.frame.size.width / 7;
+}
 
 @end
